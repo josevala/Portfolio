@@ -59,7 +59,11 @@ h1{
 }
 
 section{
-     
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+     align-items: center;
     padding-top: 30px;
     text-align: center;
     width: 100%;
@@ -69,13 +73,15 @@ section{
 }
 #welcome{
     flex-wrap: wrap;
-    
+    justify-content: space-evenly;
+
     color: aliceblue;
 }
 
 
 #sec1{
     
+    align-content: space-between;
     flex-wrap: wrap;
     
     color: aliceblue;
@@ -91,4 +97,47 @@ section{
     flex-wrap: wrap;
     
     color: aliceblue;
+}
+
+#picture {
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+    
+    background: transparent ;
+    border: 3px solid white;
+  
+}
+#name{
+    flex-wrap: wrap;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+font-size: 40px;
+}
+#links{
+    margin-top: 10px;
+    height: 70px;
+    padding-top: 30px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+#github{
+    height: 60px;
+    width :60px;
+    padding: 10px 10px;
+    padding-top: 10px;
+}
+ #github:hover{
+    background-color: rgb(76, 106, 139);
+    
+ }
+ #linkedIn{
+    height: 60px;
+    width :60px;
+    padding: 10px 10px;
+    padding-top: 10px;
+}
+#linkedIn:hover{
+    background-color: rgb(76, 106, 139);
 }
