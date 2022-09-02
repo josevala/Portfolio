@@ -37,6 +37,7 @@ header{
     position:fixed;
    justify-content: space-evenly;
    align-items: center;
+   border: 2px solid rgb(9, 208, 235 );
 
 }
 #navbar a{
@@ -83,9 +84,10 @@ section{
     padding-bottom: 0%;
     margin-bottom: 0%;
 }
-#contactinfo{
-    font-size:25px ;
+#contactInfo{
+    font-size:25px;
 }
+
 
 h1{
     padding-top: 30px;
@@ -93,11 +95,28 @@ h1{
 
 
 #sec2{
+    align-content: space-around;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     flex-wrap: wrap;
     padding-top: 0%;
     margin-top: 0%;
     color: aliceblue;
+}
+
+
+#about{
+    padding: 50px;
+    padding-top: 100px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    justify-content: space-around;
+    align-self: center;
+    width: 700px;
+    height: 300px;
+    border: #000008;
+    box-shadow: 0px 10px 40px rgb(76, 106, 139);
 }
 #sec3{
    
@@ -106,15 +125,19 @@ h1{
     color: aliceblue;
 }
 
+
 #picture {
-    border-radius: 10px;
+    
+    border-radius: 15px;
     height: 500px;
     width: 400px;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
-    background: transparent ;
-    border: 3px solid white;
-  
+    margin: 0;
+    overflow: hidden;
+    background-image: url(profilePic.png);
+    background-position: top;
+    background-size:cover;
+    border: 2px solid #000008;
+    box-shadow: 0px 10px 40px rgb(76, 106, 139);
 }
 #name{
     flex-wrap: wrap;
@@ -124,28 +147,29 @@ h1{
 font-size: 40px;
 }
 #links{
-    margin-top: 10px;
-    height: 70px;
-    padding-top: 30px;
-    justify-content: space-between;
-    align-content: space-between;
+    height: 60px;
+    padding: 30px;
+    justify-content: space-around;
+    align-content: center;
+    display: flex;
 }
 #github{
     height: 60px;
     width :60px;
-    padding: 10px 10px;
-    padding-top: 10px;
-}
- #github:hover{
-    background-color: rgb(76, 106, 139);
     
- }
+
+}
+#github:hover{
+    border:5px solid rgb(9, 208, 235);
+}
+ 
  #linkedIn{
+    
     height: 60px;
     width :60px;
-    padding: 10px 10px;
-    padding-top: 10px;
+    
+    
 }
 #linkedIn:hover{
-    background-color: rgb(76, 106, 139);
+    border:5px solid rgb(9, 208, 235);
 }
