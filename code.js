@@ -16,5 +16,17 @@ function scrollFunction() {
       document.getElementById("navbar").style.top = "-50px";
     }
   }
-
   
+  let Imgs = []
+  let imgCont1 = document.getElementById("ProjectOne")
+  
+function nextImg(){
+   let nexBtn = document.getElementById("prev")
+  
+    
+            
+
+
+      }
+    
+ 

@@ -1,5 +1,6 @@
 
 * {
+    
    
     flex-wrap: wrap;
    padding: 0%; 
@@ -75,26 +76,34 @@ section{
 
 }
 #welcome{
+    display: flex;
+    flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 0%;
     color: aliceblue;
     margin-top: 0%;
     padding-bottom: 0%;
     margin-bottom: 0%;
+    justify-items: center;
+    
 }
 #contactInfo{
+    
     font-size:25px;
 }
 
 
 h1{
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 
 #sec2{
+    height: 200px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
     align-content: space-around;
     display: flex;
     flex-direction: column;
@@ -107,10 +116,11 @@ h1{
 
 
 #about{
-    padding: 50px;
-    padding-top: 100px;
+    margin-bottom: 0%;
+    
+    flex-wrap: wrap;
+    padding-top: 70px;
     margin-top: 100px;
-    margin-bottom: 150px;
     justify-content: space-around;
     align-self: center;
     width: 700px;
@@ -119,14 +129,46 @@ h1{
     box-shadow: 0px 10px 40px rgb(76, 106, 139);
 }
 #sec3{
-   
+    width: 100%;
+    display: flex;
     flex-wrap: wrap;
-    
+    flex-direction: column;
+   margin-top: 0%;
+   padding-top: 0%;
+   margin-bottom: 60px;
     color: aliceblue;
 }
+#projects{
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    overflow-x:visible;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+    padding-top: 50px;
+    align-content: space-around;
+    font-size: 27px;
+}
 
+h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+h2:hover{
+    color:rgb(76, 106, 139) ;
+}
 
-#picture {
+img{
+    border-radius: 20px;
+    border: 2px solid #000008;
+    box-shadow: 0px 10px 40px rgb(76, 106, 139);
+}
+
+        
+
+#picture { 
     
     border-radius: 15px;
     height: 500px;
@@ -139,12 +181,17 @@ h1{
     border: 2px solid #000008;
     box-shadow: 0px 10px 40px rgb(76, 106, 139);
 }
+
 #name{
+    margin: 20px;
+    justify-content: center;
     flex-wrap: wrap;
     align-content: center;
     display: flex;
     flex-direction: column;
-font-size: 40px;
+    font-size: 40px;
+    padding-left: 0%;
+    
 }
 #links{
     height: 60px;
@@ -173,3 +220,105 @@ font-size: 40px;
 #linkedIn:hover{
     border:5px solid rgb(9, 208, 235);
 }
+#project1{
+    flex-wrap: wrap;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+#ProjectOne{
+    flex-wrap: wrap;
+    width: 700px;
+    height: 370px;
+    border: 2px solid #000008;
+    box-shadow: 0px 10px 40px rgb(76, 106, 139);
+    display: flex;
+}
+#buttons{
+    justify-content: space-between;
+    align-content: space-around;
+    display: flex;
+    flex-direction: row;
+
+}
+button{
+    border-radius: 30px;
+    background-color: transparent;
+    color: aliceblue;
+    height: 50px; width: 150px;
+    font-size: 27px;
+    margin-top: 50px;
+
+}
+button:hover{
+    color:rgb(76, 106, 139) ;
+    border: 2px solid #000008;
+    box-shadow: 0px 10px 40px rgb(76, 106, 139);
+}
+#prev{
+  align-content: center;
+  display: flex;
+  justify-self: flex-start;
+  justify-content: center;
+}
+#next{
+    align-content: center;
+    display: flex;
+    
+    justify-content: center;
+}
+#Project2{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#ProjectTwo{
+    width: 700px;
+    height: 370px;
+    border: 2px solid #000008;
+    box-shadow: 0px 10px 40px rgb(76, 106, 139);
+    display: flex;
+   
+}
+#prev2{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  }
+  #next2{
+      align-content: center;
+      display: flex;
+      justify-content: center;
+  }
+  #Project3{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#ProjectThree{
+    width: 700px;
+    height: 370px;
+    border: 2px solid #000008;
+    box-shadow: 0px 10px 40px rgb(76, 106, 139);
+    display: flex;
+   
+}
+#prev3{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+  }
+  #next3{
+      align-content: center;
+      display: flex;
+      justify-content: center;
+  }
+  a{
+    color: aliceblue;
+  }
+  a:hover{
+    color: rgb(76, 106, 139);
+  }
