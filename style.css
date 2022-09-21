@@ -66,12 +66,12 @@ h1{
 section{
     display: flex;
     justify-content: center;
-    
+    margin-top: 100px;
     flex-wrap: wrap;
     padding-top: 30px;
     text-align: center;
     width: 100%;
-    min-height: 700px;
+    min-height: 900px;
     
 
 }
@@ -221,6 +221,7 @@ img{
     border:5px solid rgb(9, 208, 235);
 }
 #project1{
+    
     flex-wrap: wrap;
     margin-bottom: 0%;
     display: flex;
@@ -229,9 +230,13 @@ img{
 }
 #ProjectOne{
     flex-wrap: wrap;
-    width: 700px;
-    height: 370px;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
     border: 2px solid #000008;
+    border-radius: 15px;
+    
     box-shadow: 0px 10px 40px rgb(76, 106, 139);
     display: flex;
 }
@@ -299,12 +304,25 @@ button:hover{
 }
 
 #ProjectThree{
-    width: 700px;
-    height: 370px;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
     border: 2px solid #000008;
+    border-radius: 15px;
+    flex-wrap: wrap;
     box-shadow: 0px 10px 40px rgb(76, 106, 139);
     display: flex;
-   
+}
+#Trivia{
+    width: 700px;
+    height: 500px;
+}
+#textanalysis{
+    border: 2px solid #000008;
+    
+    box-shadow: 0px 20px 50px rgb(76, 106, 139);
+    display: flex;
 }
 #prev3{
     align-content: center;
