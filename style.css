@@ -139,6 +139,7 @@ h1{
     color: aliceblue;
 }
 #projects{
+    flex-wrap: wrap;
     padding-left: 0%;
     padding-right: 0%;
     margin-left: 0%;
@@ -241,6 +242,7 @@ img{
     display: flex;
 }
 #buttons{
+    flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-around;
     display: flex;
@@ -274,6 +276,7 @@ button:hover{
     justify-content: center;
 }
 #Project2{
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -303,6 +306,7 @@ button:hover{
       justify-content: center;
   }
   #Project3{
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -320,12 +324,14 @@ button:hover{
     display: flex;
 }
 #Trivia{
+    display: flex;
+    flex-wrap: wrap;
     width: 700px;
     height: 500px;
 }
 #textanalysis{
+    flex-wrap: wrap;
     border: 2px solid #000008;
-    
     box-shadow: 0px 20px 50px rgb(76, 106, 139);
     display: flex;
 }
@@ -346,6 +352,8 @@ button:hover{
     color: rgb(76, 106, 139);
   }
   #MovieCat{
+    display: flex;
+    flex-wrap: wrap;
     width: 700px;
     height: 600px;
 }
