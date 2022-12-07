@@ -9,7 +9,7 @@
 body{
     
     background-color: black;
-    
+    align-content: center;
     display: flex;
      flex-wrap: wrap;
      flex-direction: column;
@@ -222,7 +222,7 @@ img{
     border:5px solid rgb(9, 208, 235);
 }
 #project1{
-    
+   justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 0%;
     display: flex;

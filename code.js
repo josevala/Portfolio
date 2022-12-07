@@ -51,7 +51,7 @@ let index = 1;
   }
  }
  prev1.addEventListener("click",PrevImg);
-let Imgs2 =[2];
+let Imgs2 =[2,3];
 function nextImg2(){
   if(index <= Imgs2.length){
     index += 1;
