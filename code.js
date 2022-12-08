@@ -68,7 +68,7 @@ function PrevImg2(){
     imgCont2.src= `P2Imgs/movieCatalog${index}.png`;
   }
   else{
-    index = 2
+    index = 3
     imgCont2.src= `P2Imgs/movieCatalog${index}.png`;
   }
 }
