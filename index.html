@@ -5,32 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/680a78bca5.js"
+    crossorigin="anonymous"></script>
+
     <title> Jose V. Portfolio</title>
 </head>
-<body>
+ <body>
+  <div id = "wrapper">
     <header id = "navbar"> 
     <a href = "#welcome">welcome</a>
     <a href = "#sec2">About</a>
     <a href = "#sec3">Projects</a>
     </header>
+    
     <section id = "welcome">
         
         <div id = "picture"></div>
-        <div id = "name"><span>Jose Valadez</span> 
+        <div id = "name">
+            <span>Jose Valadez</span> 
             <span>Front-End Web Developer</span>
             <div id = "links">
             <span id="github" ><a href="https://github.com/josevala?tab=repositories" target = "_blank">
                 <img src="./gtihub.png" width="50px" height= "50px"></a></span>
+            <span id ="resume"><a href= "/Users/josev/Downloads/Jose_V_Resume.pdf" target="_blank"></a>CV</span>
             <span id ="linkedIn"><a href="http://www.linkedin.com/in/jose-valadez-36a972187" target="_blank">
                 <img src="./linked in .png"width="50px" height= "50px"></a></span>
             </div>
         <div id = "contactInfo">
-            <p>
+            <span>
             Phone Number: <strong>(714)-752-9298 </strong>
-            </p>
-            <p>
+            </span>
+            <span>
             Email: <strong>josevala04@gmail.com</strong>
-        </p></div>
+            </span></div>
         
         </div>
     </section>
@@ -38,12 +45,27 @@
   
 
     <section id = "sec2">
-     
-        
           <h1> About</h1>
-      <div id = "about"><p>
-            Hello!
-      </p></div>
+      <div id = "about">
+          <div paragraph >
+           <P>Studied at Kenzie Academy from Southern New Hampshire University and
+            earned a front end web development certificate. Gained high motivation to solve
+            problems by using HTML, CSS and JavaScript and making multiple projects.
+            Seeking a front-end web developer position.</P>
+          </div>
+          <div id="logos">
+           <div id="html">
+             <i class="fa-brands fa-html5"></i>
+           </div>
+           <div id="css">
+             <i class="fa-brands fa-css3-alt"></i>
+           </div>
+           <div id="js">
+             <i class="fa-brands fa-square-js"></i>
+           </div>
+         </div>
+         
+      </div>
    </section>
 
    <section id = "sec3">
@@ -80,7 +102,7 @@
               </div>
         </div>
     </section>
-
+  </div>
   <script src = "code.js"></script>
 </body>
 </html>

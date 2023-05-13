@@ -74,3 +74,4 @@ function PrevImg2(){
 }
 next2.addEventListener("click",nextImg2);
 prev2.addEventListener("click",PrevImg2);
+

@@ -1,27 +1,20 @@
-
-* {
-    
-   
-    flex-wrap: wrap;
-   padding: 0%; 
-   margin: 0%;
-}
-body{
-    
+*{
+    margin: 0;
+    padding: 0;
     background-color: black;
-    align-content: center;
-    display: flex;
-     flex-wrap: wrap;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-    overflow-x: hidden;
-   width: 100%;
-    
+}
+#wrapper{
+    width: 100%;
+    display: grid;
+        align-content: center;
+        background-color: black;
+         align-items: center;
+        
     
 }
-header{ 
+header{
     background-image: url(wp1904056.jpg);
+    flex-wrap: wrap;
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -36,324 +29,176 @@ header{
     flex-direction: row;
     top: 0px;
     position:fixed;
-   justify-content: space-evenly;
-   align-items: center;
+   justify-content: space-around; 
    border: 2px solid rgb(9, 208, 235 );
-
 }
 #navbar a{
-    
+    align-self: center;
     font-size:  30px ;
     display: flex;
-   margin: 0%;
-   
-    display: block;
+     margin: 0%;
     text-align: center;
-    align-content: center; 
+    align-content: center;
     color: aliceblue;
 }
 #navbar a:hover{
     color: rgb(76, 106, 139);
 }
 h1{
-    justify-content: flex-start;
-    margin-top: 0%;
-    padding-top: 0%;
+    padding-top: 40px;
     font-family: monospace;
     font-size: 60px;
+    color: aliceblue;
+    padding-bottom:30px ;
 }
 
 section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 100px;
-    flex-wrap: wrap;
-    padding-top: 30px;
-    text-align: center;
-    width: 100%;
-    min-height: 900px;
-    
-
+    padding-top:30px;
 }
 #welcome{
+    padding-top: 10%;
     display: flex;
     flex-direction: row;
-    align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 0%;
     color: aliceblue;
+    text-align: center;
+    justify-content:center;
     margin-top: -50px;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
     justify-items: center;
+    align-content: center;
     
 }
-#contactInfo{
+#picture {
     
-    font-size:25px;
-}
-
-
-h1{
-    padding-top: 40px;
-}
-
-
-#sec2{
-    height: 200px;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
-    align-content: space-around;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    padding-top: 0%;
-    margin-top: 0%;
-    color: aliceblue;
-}
-
-
-#about{
-    margin-bottom: 0%;
-    
-    flex-wrap: wrap;
-    padding-top: 70px;
-    margin-top: 100px;
-    justify-content: space-around;
-    align-self: center;
-    width: 700px;
-    height: 300px;
-    border: #000008;
-    box-shadow: 0px 10px 40px rgb(76, 106, 139);
-}
-#sec3{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-   margin-top: 0%;
-   padding-top: 0%;
-   margin-bottom: 60px;
-    color: aliceblue;
-}
-#projects{
-    flex-wrap: wrap;
-    padding-left: 0%;
-    padding-right: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
-    overflow-x:visible;
-    justify-content: center;
-    margin-bottom: 30px;
-    flex-direction: column;
-    padding-top: 50px;
-    align-content: space-around;
-    font-size: 27px;
-}
-
-h2{
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-h2:hover{
-    color:rgb(76, 106, 139) ;
-}
-
-img{
-    border-radius: 20px;
-    border: 2px solid #000008;
-    box-shadow: 0px 10px 40px rgb(76, 106, 139);
-}
-
-        
-
-#picture { 
-    
-    border-radius: 15px;
+   border-radius: 15px;
     height: 500px;
     width: 400px;
-    margin: 0;
+    margin: 20px;
     overflow: hidden;
     background-image: url(profilePic.png);
-    background-position: top;
     background-size:cover;
     border: 2px solid #000008;
     box-shadow: 0px 10px 40px rgb(76, 106, 139);
 }
-
 #name{
-    margin: 20px;
+   margin: 20px;
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
     display: flex;
     flex-direction: column;
     font-size: 40px;
-    padding-left: 0%;
-    
+    padding-left: 0%
 }
+#resume{
+    padding: 5px;
+    align-content: center;
+    font-family: monospace;
+    font-size: 35px;
+    vertical-align: center;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(51, 51, 217);
+
+}
+#github:hover{
+    box-shadow: 0px 10px 40px rgb(76, 106, 139);
+}
+#linkedIn :hover{
+    box-shadow: 0px 10px 40px rgb(76, 106, 139);
+}
+#resume:hover{
+    box-shadow: 0px 10px 40px rgb(76, 106, 139);
+}
+
 #links{
     height: 60px;
     padding: 30px;
     justify-content: space-around;
     align-content: center;
     display: flex;
+    margin-bottom: 20px;
 }
-#github{
-    height: 60px;
-    width :60px;
+
+#contactInfo{
     
+    display: flex;
+    flex-direction: column;    
+    font-size:25px;
+}
+#sec2{
+    text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-content: center;
 
 }
-#github:hover{
-    border:5px solid rgb(9, 208, 235);
-}
- 
- #linkedIn{
-    
-    height: 60px;
-    width :60px;
-    
-    
-}
-#linkedIn:hover{
-    border:5px solid rgb(9, 208, 235);
-}
-#project1{
-   justify-content: space-around;
-    flex-wrap: wrap;
-    margin-bottom: 0%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
-#ProjectOne{
-    flex-wrap: wrap;
+ #about{
     align-items: center;
-    justify-content: center;
-    width: fit-content;
-    height: fit-content;
-    border: 2px solid #000008;
-    border-radius: 15px;
-    
-    box-shadow: 0px 10px 40px rgb(76, 106, 139);
-    display: flex;
-}
-#buttons{
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-around;
-    display: flex;
-    flex-direction: row;
-
-}
-button{
-    border-radius: 30px;
-    background-color: transparent;
     color: aliceblue;
-    height: 50px; width: 150px;
-    font-size: 27px;
-    margin-top: 50px;
-
-}
-button:hover{
-    color:rgb(76, 106, 139) ;
-    border: 2px solid #000008;
-    box-shadow: 0px 10px 40px rgb(76, 106, 139);
-}
-#prev{
-  align-content: center;
-  display: flex;
-  justify-self: flex-start;
-  justify-content: center;
-}
-#next{
-    align-content: center;
-    display: flex;
-    
-    justify-content: center;
-}
-#Project2{
+    max-width: 800px;
+     display: flex;
+    margin-bottom: 0%;
+    border-radius: 20px;
+    font-size: 30px;
     flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
-
-#ProjectTwo{
-    flex-wrap: wrap;
-    align-items: center;
+    padding-top: 30px;
+    margin-top: 20px;
     justify-content: center;
-    width: fit-content;
-    height: fit-content;
-    border: 2px solid #000008;
-    border-radius: 15px;
-    
+    height: 500px;
+    border: #000008;
     box-shadow: 0px 10px 40px rgb(76, 106, 139);
-    display: flex;
    
 }
-#prev2{
-    align-content: center;
-    display: flex;
-    justify-content: center;
-  }
-  #next2{
-      align-content: center;
-      display: flex;
-      justify-content: center;
-  }
-  #Project3{
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+#about p{
+    padding-left: 30px;
+    padding-right:30px;
 }
 
-#ProjectThree{
-    align-items: center;
-    justify-content: center;
-    width: fit-content;
-    height: fit-content;
-    border: 2px solid #000008;
-    border-radius: 15px;
-    flex-wrap: wrap;
-    box-shadow: 0px 10px 40px rgb(76, 106, 139);
-    display: flex;
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:500px) {
+
+ #wrapper{
+    width: 100px;
+    display: grid;
+    
+ }
+#section{
+display: flex;
+justify-content: center;
+width: fit-content;
 }
-#Trivia{
+#welcome{
     display: flex;
     flex-wrap: wrap;
-    width: 700px;
-    height: 500px;
+    flex-direction: column;
+
 }
-#textanalysis{
-    flex-wrap: wrap;
-    border: 2px solid #000008;
-    box-shadow: 0px 20px 50px rgb(76, 106, 139);
-    display: flex;
+#contactInfo{   
+    font-size:35px;
 }
-#prev3{
-    align-content: center;
-    display: flex;
-    justify-content: center;
-  }
-  #next3{
-      align-content: center;
-      display: flex;
-      justify-content: center;
-  }
-  a{
-    color: aliceblue;
-  }
-  a:hover{
-    color: rgb(76, 106, 139);
-  }
-  #MovieCat{
-    display: flex;
-    flex-wrap: wrap;
-    width: 700px;
-    height: 600px;
+
 }
