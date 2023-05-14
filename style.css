@@ -12,6 +12,9 @@
         
     
 }
+body{
+    display: grid;
+}
 header{
     background-image: url(wp1904056.jpg);
     flex-wrap: wrap;
@@ -34,7 +37,7 @@ header{
 }
 #navbar a{
     align-self: center;
-    font-size:  30px ;
+    font-size:  35px ;
     display: flex;
      margin: 0%;
     text-align: center;
@@ -56,10 +59,11 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 100px;
+    
     padding-top:30px;
 }
 #welcome{
+    max-width: 100%;
     padding-top: 10%;
     display: flex;
     flex-direction: row;
@@ -73,7 +77,8 @@ section{
     
 }
 #picture {
-    
+    display: flex;
+    flex-wrap: wrap;
    border-radius: 15px;
     height: 500px;
     width: 400px;
@@ -85,16 +90,24 @@ section{
     box-shadow: 0px 10px 40px rgb(76, 106, 139);
 }
 #name{
-   margin: 20px;
+    display: flex;
+    margin: 20px;
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
-    display: flex;
     flex-direction: column;
     font-size: 40px;
     padding-left: 0%
 }
+#resume a{
+    color: aliceblue;
+    background-color: rgb(51, 51, 217);
+    padding:2px;
+    font-family: monospace;
+    font-weight: 600;
+}
 #resume{
+    color: aliceblue;
     padding: 5px;
     align-content: center;
     font-family: monospace;
@@ -116,11 +129,13 @@ section{
 }
 
 #links{
+    display: flex;
     height: 60px;
     padding: 30px;
     justify-content: space-around;
     align-content: center;
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 20px;
 }
 
@@ -131,11 +146,13 @@ section{
     font-size:25px;
 }
 #sec2{
+    padding-top: 200px;
     text-align: center;
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-content: center;
+     padding-bottom: 100px;
 
 }
  #about{
@@ -153,52 +170,248 @@ section{
     height: 500px;
     border: #000008;
     box-shadow: 0px 10px 40px rgb(76, 106, 139);
+    font-weight: 550;
    
 }
 #about p{
     padding-left: 30px;
     padding-right:30px;
+    font-size: 40;
+
 }
 
+#logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 300px;
+    align-content: space-around;
+}
+
+ #logos div{
+    padding: 20px;
+    
+ }
+i{
+    font-size: 70px;
+}
+
+#sec3{
+    padding-top: 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+#project1{
+    justify-content: space-around;
+     flex-wrap: wrap;
+     margin-bottom: 0%;
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     max-width:100%;
+ }
  
+#ProjectOne{
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    border: 2px solid #000008;
+    border-radius: 15px;
+    box-shadow: 0px 10px 40px rgb(76, 106, 139);
+    height: fit-content;
+    margin-bottom: 10px;
+}
+#Trivia{
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    height: 500px;
+}
+
+ #buttons{
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+
+}
+
+#project2{
+    justify-content: space-around;
+     flex-wrap: wrap;
+     margin-bottom: 0%;
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     max-width:100%;
+ }
+
+ #ProjectTwo{
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    border: 2px solid #000008;
+    border-radius: 15px;
+    box-shadow: 0px 10px 40px rgb(76, 106, 139);
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+
+#MovieCat{
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    height: 500px;
+}
 
 
 
+button{
+    border-radius: 30px;
+    background-color: transparent;
+    color: aliceblue;
+    height: 50px; width: 150px;
+    font-size: 27px;
+}
+button:hover{
+    color:rgb(76, 106, 139) ;
+    border: 2px solid #000008;
+    box-shadow: 0px 10px 40px rgb(76, 106, 139);
+}
+
+ #projects h2{
+    margin-top: 65px;
+    margin-bottom: 40px;
+    
+}
+
+#projects a{
+    color: aliceblue;
+    font-size: 35px;
+    
+}
+
+#projects a:hover{
+    color:rgb(76, 106, 139) ;
+}
+#Project3{
+    justify-content: space-around;
+     flex-wrap: wrap;
+     margin-bottom: 0%;
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     max-width:100%;
+ }
+
+ #ProjectThree{
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: fit-content;
+    border: 2px solid #000008;
+    border-radius: 15px;
+    box-shadow: 0px 10px 40px rgb(76, 106, 139);
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+#textanalysis{
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    height: 500px;
+    margin-bottom: 100px;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width:500px) {
-
+@media only screen and (max-width:700px) {
+#picture{
+    
+    max-width: 100%;
+}
+header{
+    height: 45px;
+}
  #wrapper{
     width: 100px;
     display: grid;
     
  }
 #section{
-display: flex;
-justify-content: center;
-width: fit-content;
+display: grid;
+width: 100%;
 }
 #welcome{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    display:grid;
 
 }
+#sec2{
+    padding-top: 45px;
+}
+#about{
+    max-width: 100%;
+    display: grid;
+    font-size:25px;
+    align-content: center;
+}
+#paragraph{
+    max-width: 100%;
+}
+#logos{
+    padding-top: 5px;
+    padding-left: 70px;
+    max-width:100%;
+}
+
 #contactInfo{   
     font-size:35px;
 }
+
+#sec3{
+    padding-top: 35px;
+}
+#projects{
+    display: grid;
+    max-width: 100%;
+}
+#projectOne{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+#Trivia{
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    
+}
+
+#MovieCat{
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width:100%
+}
+
 
 }
