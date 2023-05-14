@@ -363,9 +363,9 @@ display: grid;
 width: 100%;
 }
 #welcome{
-    display:flex;
+    display:block;
     align-content: center;
-justify-content: center;
+
 }
 
 #sec2{
