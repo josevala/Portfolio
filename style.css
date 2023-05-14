@@ -360,16 +360,18 @@ header{
  }
 #section{
 display: grid;
-width: 100%;
+max-width: 100%;
 }
 #welcome{
     display:grid;
+    
 }
 #container{
-    display: flex;
+    max-width: 100%;
+    display: grid;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
+    padding-left: 200px;
 }
 
 #sec2{
