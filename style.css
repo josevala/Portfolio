@@ -345,8 +345,9 @@ button:hover{
 
 
 @media only screen and (max-width:700px) {
-#picture{
     
+    #picture{
+   align-self: center; 
     max-width: 100%;
 }
 header{
@@ -362,9 +363,11 @@ display: grid;
 width: 100%;
 }
 #welcome{
-    display:grid;
-
+    display:flex;
+    align-content: center;
+justify-content: center;
 }
+
 #sec2{
     padding-top: 45px;
 }
