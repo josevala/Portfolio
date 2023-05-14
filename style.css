@@ -386,6 +386,9 @@ max-width: 100%;
 }
 #welcome{
     display:grid;
+    max-width: 100%;
+    align-items:center;
+    justify-content: center;
     align-content: center;
     flex-direction: column;
 
