@@ -356,12 +356,19 @@ button:hover{
     #picture{
    align-self: center; 
     max-width: 100%;
+    display: flex;
+    justify-content: center;
 
 }
 #links{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
     max-width: 100%;
 }
 #contactInfo{
+    display: flex;
+    justify-content: center;
     max-width:100%;
     align-content: center; 
 }
