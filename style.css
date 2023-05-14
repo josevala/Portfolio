@@ -360,6 +360,12 @@ button:hover{
     justify-content: center;
 
 }
+#name{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    max-width: 100%;
+}
 #links{
     display: flex;
     align-content: center;
