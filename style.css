@@ -205,15 +205,21 @@ i{
 #sec3{
     padding-top: 120px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    display: grid;
+    
+   
     width: 100%;
 }
-
+#projects{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
 #project1{
-    justify-content: space-around;
+    
      flex-wrap: wrap;
      margin-bottom: 0%;
      display: flex;
@@ -223,7 +229,7 @@ i{
  }
  
 #ProjectOne{
-    display: grid;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -232,7 +238,7 @@ i{
     border-radius: 15px;
     box-shadow: 0px 10px 40px rgb(76, 106, 139);
     height: fit-content;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 #Trivia{
     border-radius: 15px;
@@ -242,24 +248,28 @@ i{
     height: 500px;
 }
 
- #buttons{
+  #buttons{
     display: flex;
     flex-wrap: wrap;
-    
     flex-direction: row;
     justify-content: space-around;
-    margin: 30px;
+    margin-top: 37px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 
 }
 
 #project2{
-    justify-content: space-around;
-     flex-wrap: wrap;
-     margin-bottom: 0%;
-     display: flex;
-     flex-direction: column;
-     align-content: center;
-     max-width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width:100%;
+    padding-bottom: 100px;
+    padding-top: 50px;
  }
 
  #ProjectTwo{
@@ -273,6 +283,7 @@ i{
     box-shadow: 0px 10px 40px rgb(76, 106, 139);
     height: fit-content;
     margin-bottom: 10px;
+    
 }
 
 
@@ -282,6 +293,7 @@ i{
     flex-wrap: wrap;
     max-width: 700px;
     height: 500px;
+    
 }
 
 
@@ -290,7 +302,8 @@ button{
     border-radius: 30px;
     background-color: transparent;
     color: aliceblue;
-    height: 50px; width: 150px;
+    height: 50px; 
+    width: 150px;
     font-size: 27px;
 }
 button:hover{
@@ -301,7 +314,7 @@ button:hover{
 
  #projects h2{
     margin-top: 65px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     
 }
 
@@ -422,6 +435,7 @@ max-width: 100%;
 #projects{
     display: grid;
     max-width: 100%;
+    
 }
 #projectOne{
     display: flex;
