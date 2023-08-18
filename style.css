@@ -36,6 +36,7 @@ header{
    border: 2px solid rgb(9, 208, 235 );
 }
 #navbar a{
+    background-color: transparent;
     align-self: center;
     font-size:  35px ;
     display: flex;
@@ -231,11 +232,11 @@ i{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    max-width: fit-content;
+    max-width: 100%;
     border: 2px solid #000008;
     border-radius: 15px;
     box-shadow: 0px 10px 40px rgb(76, 106, 139);
-    height: fit-content;
+    height: 100%;
     margin-bottom: 10px;
 }
 #Trivia{
@@ -276,11 +277,11 @@ i{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    max-width: fit-content;
+    max-width: 100%;
     border: 2px solid #000008;
     border-radius: 15px;
     box-shadow: 0px 10px 40px rgb(76, 106, 139);
-    height: fit-content;
+    height: 100%;
     margin-bottom: 10px;
 }
 
