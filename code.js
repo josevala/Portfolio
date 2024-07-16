@@ -55,21 +55,21 @@ let Imgs2 =[2,3];
 function nextImg2(){
   if(index <= Imgs2.length){
     index += 1;
-    imgCont2.src= `P2Imgs/movieCatalog${index}.png`;
+    imgCont2.src= `P2Imgs/MovieCatalog24_${index}.png`;
   }
   else{
     index = 1 ;
-    imgCont2.src= `P2Imgs/movieCatalog${index}.png`;
+    imgCont2.src= `P2Imgs/MovieCatalog24_${index}.png`;
   }
 }
 function PrevImg2(){
   if (index > 1){
     index -=1;
-    imgCont2.src= `P2Imgs/movieCatalog${index}.png`;
+    imgCont2.src= `P2Imgs/MovieCatalog24_${index}.png`;
   }
   else{
     index = 3
-    imgCont2.src= `P2Imgs/movieCatalog${index}.png`;
+    imgCont2.src= `P2Imgs/MovieCatalog24_${index}.png`;
   }
 }
 next2.addEventListener("click",nextImg2);
